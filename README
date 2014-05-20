@@ -1,4 +1,4 @@
-A simple ember.js app using grunt for the client side build step
+A simple ember.js app with typescript and AMD modules
 
 
 To run the ember.js locally
