@@ -2,7 +2,7 @@ module.exports = {
   tests: {
     moduleGenTarget: 'NamedAsynchronous',
     moduleName: function(path) {
-        return 'app/tests/' + path;
+        return path;
     },
     files: [{
       expand: true,
@@ -15,7 +15,7 @@ module.exports = {
   app: {
     moduleGenTarget: 'NamedAsynchronous',
     moduleName: function(path) {
-      return 'app/' + path;
+      return path;
     },
     files: [{
       expand: true,

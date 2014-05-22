@@ -1,5 +1,6 @@
 /// <reference path="../definitions/ember/ember.d.ts"/>
 
+import Person = require("js/app/models/person");
 
 var PeopleController = Ember.ArrayController.extend({
     actions: {
